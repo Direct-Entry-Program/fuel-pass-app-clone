@@ -1,0 +1,7 @@
+
+
+    #imgContainer:focused, #imgContainer:hover{
+        -fx-border-color: transparent transparent red transparent !important;
+        -fx-border-width: 0 0 2px 0;
+    }
+

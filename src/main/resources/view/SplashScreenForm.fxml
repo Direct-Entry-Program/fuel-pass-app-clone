@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="332.0" prefWidth="449.0" style="-fx-background-color: rgba(0,0,0,0);" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SplashScreenFormController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c4b9b94b" height="312.0" layoutX="10.0" layoutY="12.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="430.0" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="12.0" />
+      <Label layoutX="142.0" layoutY="140.0" text="Fuel Pass Application">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="141.0" layoutY="100.0" prefHeight="57.0" prefWidth="182.0" text="National  " wrapText="true">
+         <font>
+            <Font name="System Bold" size="38.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="42.0" fitWidth="158.0" layoutX="21.0" layoutY="269.0">
+         <image>
+            <Image url="@../images/PEM.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="94.0" fitWidth="91.0" layoutX="54.0" layoutY="98.0">
+         <image>
+            <Image url="@../images/fuel-icon-17.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="143.0" layoutY="176.0" text="V 0.1.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Line endX="147.66665649414062" layoutX="241.0" layoutY="174.0" startX="-100.0" />
+      <Label fx:id="lblLoading" layoutX="15.0" layoutY="24.0" text="Loading .. " />
+      <ImageView fitHeight="43.0" fitWidth="48.0" layoutX="386.0" layoutY="275.0">
+         <image>
+            <Image url="@../images/Ceylon_Petroleum_Corporation_logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="48.0" layoutX="333.0" layoutY="269.0">
+         <image>
+            <Image url="@../images/lankaioc-logohome.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="pgbcontainer" fill="#9a9ea1" height="8.0" layoutX="12.0" layoutY="14.0" smooth="false" stroke="TRANSPARENT" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="426.0" />
+      <Rectangle fx:id="pgbload" fill="#0a2979" height="8.0" layoutX="12.0" layoutY="14.0" smooth="false" stroke="TRANSPARENT" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="16.0" />
+   </children>
+</AnchorPane>
